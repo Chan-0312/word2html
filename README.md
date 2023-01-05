@@ -137,7 +137,7 @@ End Function
   - 优点：libreoffice和mammoth的结合可以实现在linux环境下将doc/docx比较完美地转换为html格式
   - 缺点：libreoffice转换后的docx文件好像在word打不开(待确认？)，但是可以利用mammoth转换为html(无损坏)
 - libreoffice安装：
-  > apt-get install libreoffice-common libreoffice-writer
-  > apt-get install default-jre libreoffice-java-common
+  - > apt-get install libreoffice-common libreoffice-writer
+  - > apt-get install default-jre libreoffice-java-common
 - 利用libreoffice转换docx的命令：`libreoffice --invisible -convert-to docx:"MS Word 2007 XML" ./testdoc.doc`
 
